@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Yoga Anderson</title>
+     <!--Import Google Icon Font-->
+      <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+      <!--Import materialize.css-->
+      <link type="text/css" rel="stylesheet" href="css/materialize.min.css"  media="screen,projection"/>
+
+      <!--Let browser know website is optimized for mobile-->
+      <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+      <link rel="stylesheet" type="text/css" href="yoga.css">
+</head>
+<body>
+    <nav class="s12 m12 l12 z-depth-0">
+    <div class="nav-wrapper white" id="top-bar">
+      <a href=""><img src="Images/YOGA logo.png" height="70%" class="yoga-logo"></a>
+      <a href="#" data-target="mobile-demo" class="sidenav-trigger"><i class="material-icons">menu</i></a>
+      <ul id="nav-mobile" class="right hide-on-med-and-down">
+        <li><a href="Yoga Home.html" id="linkscolour">HOME</a></li>
+        <li><a href="Yoga Classes.html" id="linkscolour">CLASS</a></li>
+        <li><a href="Yoga Registration.html" id="linkscolour">REGISTRATION</a></li>
+        <li><a href="Yoga Login.html" id="linkscolour">LOGIN</a></li>
+        <li><a href="Yoga Contact.html" id="linkscolour">CONTACT</a></li>
+      </ul>
+    </div>
+    </nav>
+
+          <ul class="sidenav" id="mobile-demo">
+            <li><a href="Yoga Home.html" id="linkscolour">HOME</a></li>
+            <li><a href="Yoga Classes.html" id="linkscolour">CLASS</a></li>
+            <li><a href="Yoga Registration.html" id="linkscolour">REGISTRATION</a></li>
+            <li><a href="Yoga Login.html" id="linkscolour">LOGIN</a></li>
+            <li><a href="Yoga Contact.html" id="linkscolour">CONTACT</a></li>
+          </ul>
+
+    <!-- Registration page Content -->
+
+    <div>
+    	<div class="row main_login">
+    		<div class=" col s12 m12 l12 top_quarter_circle"></div>
+    		<div class="col s12 m6 l6">
+    			<h3 class="Registration_text">Registration</h3>
+    			<div class="rgst_border">
+					<div class="cover">
+						<form onsubmit="validation()">
+						<div class="UserName">
+						<input id="usrnm"type="text" placeholder="First Name" name="" value="" >
+						<input id="pswd" type="text" placeholder="Last Name" name="" value="">
+						</div>
+						<div class="Email_address">
+						<input id="eml" type="email" placeholder="Email" name="" value="">
+						</div>
+						<div class="Phone_number">
+						<select>
+							<option>India (+91)</option>
+							<option data-countryCode="CA" value="1">Canada (+1)</option>
+							<option data-countryCode="PK" value="92">Pakistan (+92)</option>
+							<option data-countryCode="AU" value="61">Australia (+61)</option>
+						</select>
+						<input id="phn" type="tel" placeholder="Phone No" name="" value="">
+						</div>
+						<div class="submit_button_div"> <button class="hoverable submit_button" type="submit" name="login" value="">Register</button></div>
+						</form>
+					</div>
+				</div>
+    		</div>
+    		<div class="col s12 m6 l6">
+				<div class="Pose5"></div>
+			</div>
+			<div class="col s12 m12 l12 bottom_quarter_circle"></div>
+    	</div>
+    </div>
+
+</body>
+</html>

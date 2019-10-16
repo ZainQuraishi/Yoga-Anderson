@@ -1,0 +1,490 @@
+
+.Link{
+	color: #e040fb;
+}
+.poz_fixed{
+	position: fixed;
+}
+#top-bar{
+
+	/*color: white;*/
+	box-shadow: 0px -8px 40px rgba(0,0,0,.20);
+	padding-right: 50px;
+	padding-left:50px;
+}
+#linkscolour{
+	color: #fd67cb;
+}
+
+.yoga-logo{
+	margin: 0px;
+	padding-top: 12px;
+}
+
+.section_one{
+	margin: 0px;
+}
+#Layer_1{
+	width: 100%;
+	height: 700px;
+}
+#first-section-container2{
+		margin-right: 0px;
+		margin-left: 0px;
+}
+#first-section-container{
+
+	background:url('SVG files/pink1.svg'); background-repeat: no-repeat;
+	/*background-size: 100% 1280px;*/
+	background-size: contain;
+	background-position: bottom;
+	height: auto;
+	width: 100%;	
+}
+
+#pose-one{
+	background: url(Images/pose1.png);background-repeat: no-repeat;
+	background-size: contain; /*100% 600px;*/	
+	height: 600px;
+	width: 100%;
+	margin-top: 80px;
+	margin-right: 0px;
+	margin-left: 0px;
+	padding-left: 100px;
+	background-color: ;
+}
+.firstimage{
+	background: rgb(0,0,0, .0);
+	width: auto;
+	height: auto;
+	margin: auto;
+}
+
+.innerimage{
+	background: url(Images/pose1.png);background-repeat: no-repeat;
+	background-size: contain;
+	background-position: center;
+	position: absolute;
+	height: 600px;
+	width: 100%;
+
+}
+#titles{
+	font-family: Raleway, Tahoma;
+	font-size: 50px; 
+}
+#text{
+	/*padding: 200px 100px 100px 200px;*/
+	margin-top: 200px;
+	color: #fd67cb;
+	font-family: Raleway, Tahoma;
+}
+.textcolour{
+		color: #fd67cb;
+		background: rgb(0,0,0, .0);
+		height: 400px;
+		width: 100%;
+		margin-bottom: 200px;
+		/*position: relative;*/
+}
+.textcolour .card-content{	
+	position: absolute;
+	height: 300px;
+	width: 300px; 
+	top: 0;
+	bottom: 0;
+	right: 0;
+	left: 0;
+	margin: auto;
+}
+.section_two{
+	margin: 0px;
+}
+.bg_colour{
+	background-color: #fd67cb;
+	height: auto;
+	width: 100%;
+	margin-top: -5px;
+}
+.row .col{
+	padding: 0px;
+}
+.bg_svg2{
+	background: url('SVG files/pink2.svg'); background-repeat: no-repeat;
+	background-size: contain;
+	background-position: left;
+	height: 600px;
+	width: 100%;
+
+}
+.bg_svg2 .pose2{
+	background: url('Images/pose2.png'); background-repeat: no-repeat;
+	background-size: contain;
+	background-position: center;
+	height: 500px;
+	width: 100%;
+	margin-top: 0px;
+}
+.text_colour_white{
+	color: white;
+	background: rgb(0,0,0, .0);
+	height: 400px;
+	width: 100%;
+	margin-bottom: 200px;
+}
+.text_colour_white .card-content{	
+	position: absolute;
+	height: 300px;
+	width: 300px; 
+	top: 0;
+	bottom: 0;
+	right: 0;
+	left: 0;
+	margin: auto;
+}
+.section_three{
+	margin: 0px;	
+}
+.bg_three{
+	background-color:;
+	height: auto;
+	width: 100%;
+	margin-top: -5px;
+}
+.bg_svg3{
+	background: url('SVG files/pink3.svg'); background-repeat: no-repeat;
+	background-size: contain;
+	background-position: top;
+	width: 100%;
+	height: 900px;
+}
+.pose3{
+	background: url('Images/pose3.png'); background-repeat: no-repeat;
+	background-size: contain;
+	background-position: center;
+	height: 700px;
+	width: 100%;
+	margin-top: 0px,
+}
+.textcolour_3{
+		color: #fd67cb;
+		background: rgb(0,0,0, .0);
+		height: 400px;
+		width: 100%;
+		margin-top: 150px;
+}
+.textcolour_3 .card-content{	
+	position: absolute;
+	height: 300px;
+	width: 300px; 
+	top: 0;
+	bottom: 0;
+	right: 0;
+	left: 0;
+	margin: auto;
+}
+.section_fourth{
+	margin: 0px;
+}
+.Registration_link{
+	color: #fd67cb;
+	text-align: center;
+	font-size: 35px;
+}
+.registeration_btn{
+	width: 10px;
+	color: white;
+	background-color: #fd67cb;
+	border: 1px solid #fd67cb;
+	border-radius: 10px;
+	cursor: pointer;
+}
+.bg_fourth{
+	background-color:;
+	height: auto;
+	width: 100%;
+}
+#bg_alignment{
+}
+#bg_circle4{
+	background: url('SVG files/pink4.svg'); background-repeat: no-repeat;
+	background-size: contain;
+	background-position: center;	
+	height: 700px;
+	width: 100%;
+	text-align: center;
+}
+#pose4{
+	background: url('Images/pose4.png'); background-repeat: no-repeat;
+	background-size: contain;
+	background-position: bottom;
+	width: 100%;
+	height: 70%;
+	display: inline-block;
+}
+.text_colour_pink{
+	color: #fd67cb;
+	background: rgb(0,0,0, .0);
+	height: 400px;
+	width: 100%;
+	margin-top: 20%;
+}
+.text_colour_pink .card-content{	
+	position: absolute;
+	height: 300px;
+	width: 300px; 
+	top: 0;
+	bottom: 0;
+	right: 0;
+	left: 0;
+	margin: auto;
+}
+.home_content{
+	height: auto;
+	width: 100%;
+	margin: 0px;
+}
+.top_quarter_circle{
+	background: url('SVG files/topquartercircle.svg'); background-repeat: no-repeat;
+	background-size: contain;
+	background-position: right top;
+	height: 200px;
+	width: 100%;
+	margin-right: 0px;
+	opacity: 0.1;
+}
+.bottom_quarter_circle{
+	background: url('SVG files/bottomquartercircle.svg'); background-repeat: no-repeat;
+	background-size: contain;
+	background-position: left bottom;
+	height: 212px;
+	width: 100%;
+	opacity: 0.1;	
+}
+.main_content{
+	height: 300px;
+	width: 100%;	
+	margin: 0px;
+}
+.home_text{
+	background: rgb(0,0,0, .0);
+	height: 300px;
+}
+.home_text .card-content{	
+	position: absolute;
+	height: 300px;
+	width: 80%; 
+	top: 0;
+	bottom: 0;
+	right: 0;
+	left: 0;
+	margin: auto;
+}
+.home_image{
+	background: url('Images/homepose.png'); background-repeat: no-repeat;
+	background-size: contain;
+	background-position: left;
+	width: 100%;
+	height: 300px;
+}
+.h1_colour{
+	color: #fd67cb;
+	font-family: raleway;
+	font-size: 70px;
+}
+.paragraph{
+	color: #fd67cb;
+	font-size: 12px;
+}
+.btn_colour{
+	background-color: #fd67cb;
+	margin-top: 20px;
+	border-radius: 50px;
+}
+
+.btn_colour:hover{
+	background-color: white;
+	color: #fd67cb;
+}
+.main_login{
+	margin: 0px;
+}
+.login_text{
+	font-size: ;
+	padding-right: 160px;
+	text-align: right;
+	color: #fd67cb;
+	font-family: Raleway, Tahoma;
+}
+.border{
+	height: 300px;
+	width: 300px;
+	background-color: #fd67cb;
+	border-radius: 40%;
+	align-items: center;
+	float: right;
+	position: relative;
+	margin-right: 10%;
+}
+.border .cover{	
+	position: absolute;
+	height: 300px;
+	width: 80%; 
+	top: 0;
+	bottom: 0;
+	right: 0;
+	left: 0;
+	margin: auto;
+	padding-top: 100px;
+	padding-left: 40px;
+	border-radius: 30%;
+}
+.main_Contact{
+	margin: 0px;
+}
+#usrnm{
+	background-color: white;
+	width: 165px;
+	height: 30px;
+	border-radius: 5px;
+	font-size: 13px;
+	border:none;	
+}
+#pswd{
+	background-color: white;
+	width: 165px;
+	height: 30px;
+	border-radius: 5px;
+	font-size: 13px;
+	border:none;	
+
+}
+.inptborder{
+	height: 50px;
+	border-radius: 40%;
+	background-color: yellow;
+	color: white;
+	margin: 0px;
+	border-bottom: 0px;
+}
+.submit_button_div{
+	padding-top: 20px;
+}
+.submit_button{
+	color: white;
+	opacity:;
+	background-color:#fd67cb;
+	border: none;
+	width: 165px;
+	height: 25px;
+	border: 1px solid white;
+	border-radius: 5px;
+	cursor: pointer;
+}
+.submit_button:hover{
+	background-color: white;
+	color: #fd67cb;
+}
+.Pose5{
+	background: url('Images/Pose5.png'); background-repeat: no-repeat;
+	background-size: contain;
+	background-position: left;
+	width: 100%;
+	height: 450px;
+}
+.Contect_text{
+	font-size: ;
+	padding-right: 40px;
+	text-align: right;
+	color: #fd67cb;
+	font-family: Raleway, Tahoma;
+}
+.cmt_border{
+	height: 430px;
+	width: 300px;
+	background-color: #fd67cb;
+	border-radius: 50px;
+	align-items: center;
+	float: right;
+	position: relative;
+	margin-right: 10%;
+
+}
+.cmt_border .cover{	
+	position: absolute;
+	height: 300px;
+	width: 80%; 
+	top: 0;
+	bottom: 0;
+	right: 0;
+	left: 0;
+	margin: auto;
+	padding-top: 0px;
+	padding-left: 40px;
+	border-radius: 30%;
+}
+#cmnt{
+	background-color: white;
+	width: 165px;
+	height: 200px;
+	border-radius: 5px;
+	font-size: 13px;
+	border:none;
+	resize: none;
+}
+
+.Contact_pose_image{
+	background: url('Images/Pose1.png'); background-repeat: no-repeat;
+	background-size: contain;
+	background-position: left;
+	width: 100%;
+	height: 450px;
+	margin-top: 100px;
+}
+.rgst_border{
+	height: 300px;
+	width: 300px;
+	background-color: #fd67cb;
+	border-radius: 50px;
+	align-items: center;
+	float: right;
+	position: relative;
+	margin-right: 10%;
+
+}
+.rgst_border .cover{	
+	position: absolute;
+	height: 300px;
+	width: 80%; 
+	top: 0;
+	bottom: 0;
+	right: 0;
+	left: 0;
+	margin: auto;
+	padding-top: 55px;
+	padding-left: 40px;
+	border-radius: 30%;
+}
+#eml{
+	background-color: white;
+	width: 165px;
+	height: 30px;
+	border-radius: 5px;
+	font-size: 13px;
+	border:none;	
+}
+#phn{
+	background-color: white;
+	width: 165px;
+	height: 30px;
+	border-radius: 5px;
+	font-size: 13px;
+	border:none;	
+}
+.Registration_text{
+	font-size: ;
+	padding-right: 14%;
+	text-align: right;
+	color: #fd67cb;
+	font-family: Raleway, Tahoma;
+}

@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Yoga Anderson</title>
+     <!--Import Google Icon Font-->
+      <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+      <!--Import materialize.css-->
+      <link type="text/css" rel="stylesheet" href="css/materialize.min.css"  media="screen,projection"/>
+
+      <!--Let browser know website is optimized for mobile-->
+      <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+      <link rel="stylesheet" type="text/css" href="yoga.css">
+</head>
+</head>
+<body>
+	<nav class="s12 m12 l12 z-depth-0">
+	    <div class="nav-wrapper white" id="top-bar">
+	      <a href=""><img src="Images/YOGA logo.png" height="70%" class="yoga-logo"></a>
+  		  <a href="#" data-target="mobile-demo" class="sidenav-trigger"><i class="material-icons">menu</i></a>
+	      <ul id="nav-mobile" class="right hide-on-med-and-down">
+	        <li><a href="Yoga Home.html" id="linkscolour">HOME</a></li>
+	        <li><a href="Yoga Classes.html" id="linkscolour">CLASS</a></li>
+	        <li><a href="Yoga Registration.html" id="linkscolour">REGISTRATION</a></li>
+	        <li><a href="Yoga Login.html" id="linkscolour">LOGIN</a></li>
+	        <li><a href="Yoga Contact.html" id="linkscolour">CONTACT</a></li>
+	      </ul>
+	    </div>
+	    </nav>
+
+          <ul class="sidenav" id="mobile-demo">
+            <li><a href="Yoga Home.html" id="linkscolour">HOME</a></li>
+            <li><a href="Yoga Classes.html" id="linkscolour">CLASS</a></li>
+            <li><a href="Yoga Registration.html" id="linkscolour">REGISTRATION</a></li>
+            <li><a href="Yoga Login.html" id="linkscolour">LOGIN</a></li>
+            <li><a href="Yoga Contact.html" id="linkscolour">CONTACT</a></li>
+          </ul>
+
+	<!-- Login page Content -->
+
+	<div>
+		<div class="row main_Contact">
+			<div class=" col s12 m12 l12 top_quarter_circle"></div>
+			<div class="col s12 m6 l6">
+				<h3 class="Contect_text">Contact Us / Query</h3>
+				<div class="cmt_border">
+					<div class="cover">
+						<form onsubmit="validation()">
+						<div class="UserName">
+						<input id="usrnm"type="text" placeholder="  Name" name="" value="" >
+					
+						<input id="pswd" type="text" placeholder="  Email" name="" value="">
+						</div>
+						<div class="Comment">
+						<textarea name="message" id="cmnt" placeholder="  Message"></textarea>
+						<!--<input id="cmnt" type="text" placeholder="Comment" name="" value="">-->
+						</div>
+						<div class="submit_button_div"> <button class="hoverable submit_button" type="submit" name="login" value="">Submit</button></div>
+						</form>
+					</div>
+				</div>
+			</div>
+			<div class="col s12 m6 l6" id="Contact_pose">
+				<div class="hide-on-small-only Contact_pose_image"></div>
+			</div>			
+			<div class="col s12 m12 l12 bottom_quarter_circle"></div>
+		</div>
+	</div>
+
+	<!-- JavaScript codes -->
+
+	<script type="text/javascript">
+		function validation() {
+			var	 username = document.getElementById('usrnm')
+			var	 password = document.getElementById('pswd')
+			var	 Comment = document.getElementById('cmnt')
+
+			if (usrnm.value.trim()=="" || password.value.trim()=="") {
+				alert("please fill all fields");
+			}
+			else
+			{
+				true;
+			}
+		}
+
+	</script>
+
+</body>
+</html>
